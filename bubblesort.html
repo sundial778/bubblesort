@@ -1,34 +1,72 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
-	<head>
-		<title> Bubble Sort </title>
-		<!-- Meta Tags -->
-		<meta charset="utf-8"/>
-		
-		<!-- Stylesheets -->
-		<link rel="stylesheets" href="styles/reset.css">
-		<link rel="stylesheet" href="style.css"/> 
-	</head>
+<head>
+    <title> Bubble Sort </title>
+    <!-- Meta Tags -->
+    <meta charset="utf-8" />
 
-	<body>
-		<header> <!--Header -->
-			<h1 id="mainHeader"> Bubble Sort </h1>
-		</header>
+    <!-- Stylesheets -->
+    <link rel="stylesheets" href="styles/reset.css">
+    <link rel="stylesheet" href="C:\Users\mcclina\Documents\webslingers\bubblesort\css\styles.css" />
+    <style type="text/css">
+    
+    </style>
+</head>
 
-		<section id="mainSection"> 
-		<input type="text" id = "arrayGenerator">Insert the numbers here. Seperate by commas.</input>
+<body>
+    <header>
+        <!--Header -->
+    </header>
 
-		</section>
+    <section id = "mainSection">
+        <form>
+            <table>
+                <tr>
+                    <td >
+                         <h1 id="mainHeader"> Bubble Sort </h1>
+                            <h3> Instructions</h3>
+                        <ul style ="list-style-type:none;">
+       
+                            <li>
+                                Insert numbers seperated by commas (No space)
+                            </li>
+                            <li>
+                                Press "run" button
+                            </li>
+                            <li>
+                                If you're feeling lazy, press the second button to run using randomly generated numbers
 
-		<!-- JavaScript -->
-		<script
-        	src="https://code.jquery.com/jquery-1.12.3.min.js"
-        	integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ="
-        	crossorigin="anonymous">
-    	</script>
+                            </li>
 
-    	<script type="text/javascript" src="avgGrade.js"></script>
-	</body>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3 id="randomNumbers"></h3>
+                        </input>
+                        <input type="text" id="arrayGenerator" 9">
+                        <button id="useOwn"> Use your own numbers</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button id="usePrewrittenNumbers"> Use randomly generated numbers numbers</button>
+                    </td>
+
+                </tr>
+            </table>
+        </form>
+    </section>
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js"
+            integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ="
+            crossorigin="anonymous">
+    </script>
+
+    <script type="text/javascript" src="bubblesort.js"></script>
+</body>
 
 </html>
