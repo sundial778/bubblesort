@@ -3,7 +3,7 @@ body
 { font-size: 30px;
 text-align:center;
  color:black; 
- background-image:url(images/Bubbles.jpg)
+ background-image:url('http://www.pptbackground.net/background/Bubbles-Yellow-Abstraction-PPT-for-Powerpoint-Templates.jpg');
 
 
 }
@@ -22,6 +22,4 @@ text-align:center;
         display:inline-block;
         word-wrap:break-word;   
     }
-    ul, menu, dir{
-        
-    }
+    
