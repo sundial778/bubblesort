@@ -3,7 +3,7 @@ body
 { font-size: 30px;
 text-align:center;
  color:black; 
- background-image:url(file:///C:/Users/mcclina/Documents/webslingers/bubblesort/images/Bubbles.jpg)
+ background-image:url('images/Bubbles.jpg')
 
 
 }
